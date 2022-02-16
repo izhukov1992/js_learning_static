@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Первая страница</title>
+        <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+        <style>
+        
+        </style>
+    </head>
+
+    <body>
+        <h1 id="title">Hello!</h1>
+        <h1 class="yellow"><span>Hello 2!</span></h1>
+        <h2 class="yellow">Hello 3!</h2>
+        <a href="page.html">Ссылка на другую страницу</a>
+        <!--
+        User
+        
+        HTTP methods
+        
+        POST
+        GET
+        PATCH
+        PUT
+        DELETE
+        
+        OPTIONS
+        
+        
+        CRUD - create, read, update, delete
+        -->
+        <form method="POST" action="send_form.html">
+        <input type="text" name="name" pattern="{1,}" placeholder="Имя" />
+        <input type="text" name="second_name" pattern="{1,}" placeholder="Фамилия" />
+        <input type="text" name="age" pattern="{1,}" />
+        <input type="submit" />
+        </form>
+
+        <script src="./scripts/script.js"></script>
+        
+    </body>
+</html>
